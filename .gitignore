@@ -8,7 +8,7 @@ build/
 *.pbxuser
 *.xcworkspace
 xcuserdata
-**/xcuserdata/*
+YAML.xcodeproj/xcuserdata/*
  
 .svn
 CVS
