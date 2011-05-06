@@ -20,7 +20,7 @@
 - (IBAction) yamlButtonPressed {
     
     //NSInputStream * stream = [[NSInputStream alloc] initWithFileAtPath: @"basic.yaml"];
-    NSError *theError = nil;
+    NSError * error = nil;
     
     NSURL * url = [NSURL fileURLWithPath:[[NSBundle mainBundle] 
                                          pathForResource:@"basic" ofType:@"yaml"]];
@@ -28,12 +28,25 @@
     
     NSInputStream * stream = [[NSInputStream alloc] initWithURL:url];
     
-    id yaml = [YAMLSerialization YAMLWithStream: stream
+    NSMutableArray * yaml = [YAMLSerialization YAMLWithStream: stream
                                         options: kYAMLReadOptionStringScalars
-                                          error: &theError];
+                                          error: &error];
+    
+    NSLog(@"count: %d\n", [yaml count]);
+    for (NSDictionary * data in yaml) {
+        for (NSString * key in [data allKeys]) {
+            NSLog(@"Key: %@  Value: %@\n", [key description], [data valueForKey:key]);
+        }
+    }
+    
+    
+    
     
     // Dump Objective-C object description
-    NSLog(@"%@", [yaml description]);
+    //NSLog(@"%@", [yaml description]);
+    
+    
+    
     
     
     

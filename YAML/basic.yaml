@@ -1,4 +1,11 @@
-men: [John Smith, Bill Jones]
-women:
-- Mary Smith
-- Susan Williams
+receipt:     Oz-Ware Purchase Invoice
+date:        2007-08-06
+customer:
+given:   Dorothy
+family:  Gale
+
+items:
+- part_no:   A4786
+descrip:   Water Bucket (Filled)
+price:     1.47
+quantity:  4
