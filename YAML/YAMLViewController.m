@@ -19,7 +19,6 @@
 
 - (IBAction) yamlButtonPressed {
     
-    //NSInputStream * stream = [[NSInputStream alloc] initWithFileAtPath: @"basic.yaml"];
     NSError * error = nil;
     
     NSURL * url = [NSURL fileURLWithPath:[[NSBundle mainBundle] 

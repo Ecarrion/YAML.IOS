@@ -1,6 +1,7 @@
 # YAML.IOS for Objective-C
 
-A fork from [YAML.Framework](https://github.com/mirek/YAML.framework)
+A fork from [YAML.Framework](https://github.com/mirek/YAML.framework).
+
 Based on C [LibYAML library](http://pyyaml.org/wiki/LibYAML) by Kirill Simonov.
 `YAML.framework` provides support for YAML (de/)serialisation similarly to standard `NSPropertyListSerialization`.
 
