@@ -1,11 +1,36 @@
-receipt:     Oz-Ware Purchase Invoice
-date:        2007-08-06
-customer:
-given:   Dorothy
-family:  Gale
+# Content information
+---
+Device:
+    - Iphone
+    - Ipad
+Facebook: yes
+Waiting text: Please wait while we load your catalogue 
+Home Page text: This is my catalogue of photographs, 
+    I hope you enjoy it. If you select any of the pictures 
+    you can send me a mail and I will send you the originals for $1
+Information request by email: yes
+Email: nick@nickaldridge.com
+Contacts page: yes
+Address: 40 London Road, Sandy, Beds, SG19 1HA
+Telephone: 0208 4562345
+Map_reference: 5577438,38484838
 
-items:
-- part_no:   A4786
-descrip:   Water Bucket (Filled)
-price:     1.47
-quantity:  4
+# Style details
+---
+Name:
+    Family: Times New Roman
+    Style: normal
+    Size: 12px
+    Color: red
+Short Description:
+    Family: Times New Roman
+    Style: normal
+    Size: 12px
+    Color: red
+Long Description:
+    Family: Times New Roman
+    Style: normal
+    Size: 12px
+    Color: red
+Background:
+    Color: red

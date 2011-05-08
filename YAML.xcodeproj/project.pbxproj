@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26146BA0137464B100444BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E31373569100EAFF26 /* Foundation.framework */; };
+		26146BA71374654000444BAB /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050613735D9E00EAFF26 /* api.c */; };
+		26146BA81374654000444BAB /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050713735D9E00EAFF26 /* dumper.c */; };
+		26146BA91374654000444BAB /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050813735D9E00EAFF26 /* emitter.c */; };
+		26146BAA1374654000444BAB /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050913735D9E00EAFF26 /* loader.c */; };
+		26146BAB1374654000444BAB /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050D13735D9E00EAFF26 /* parser.c */; };
+		26146BAC1374654000444BAB /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050E13735D9E00EAFF26 /* reader.c */; };
+		26146BAD1374654000444BAB /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050F13735D9E00EAFF26 /* scanner.c */; };
+		26146BAE1374654000444BAB /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696051013735D9E00EAFF26 /* writer.c */; };
+		26146BAF1374654000444BAB /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26960484137358CE00EAFF26 /* YAMLSerialization.m */; };
+		26146BB01374657700444BAB /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696049713735D9E00EAFF26 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26146BB11374657700444BAB /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 269604F513735D9E00EAFF26 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26146BB21374657700444BAB /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696051113735D9E00EAFF26 /* yaml_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26146BB31374657700444BAB /* YAMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26960483137358CE00EAFF26 /* YAMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26146BB9137465F300444BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E31373569100EAFF26 /* Foundation.framework */; };
+		26146BC01374662100444BAB /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050613735D9E00EAFF26 /* api.c */; };
+		26146BC11374662100444BAB /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050713735D9E00EAFF26 /* dumper.c */; };
+		26146BC21374662100444BAB /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050813735D9E00EAFF26 /* emitter.c */; };
+		26146BC31374662100444BAB /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050913735D9E00EAFF26 /* loader.c */; };
+		26146BC41374662100444BAB /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050D13735D9E00EAFF26 /* parser.c */; };
+		26146BC51374662100444BAB /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050E13735D9E00EAFF26 /* reader.c */; };
+		26146BC61374662100444BAB /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050F13735D9E00EAFF26 /* scanner.c */; };
+		26146BC71374662100444BAB /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696051013735D9E00EAFF26 /* writer.c */; };
+		26146BC81374662100444BAB /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26960484137358CE00EAFF26 /* YAMLSerialization.m */; };
+		26146BC9137466B800444BAB /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696049713735D9E00EAFF26 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26146BCA137466B800444BAB /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 269604F513735D9E00EAFF26 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26146BCB137466D400444BAB /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696051113735D9E00EAFF26 /* yaml_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26146BCC137466D400444BAB /* YAMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26960483137358CE00EAFF26 /* YAMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		269602E21373569100EAFF26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E11373569100EAFF26 /* UIKit.framework */; };
 		269602E41373569100EAFF26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E31373569100EAFF26 /* Foundation.framework */; };
 		269602E61373569100EAFF26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E51373569100EAFF26 /* CoreGraphics.framework */; };
@@ -116,9 +144,40 @@
 		269605E113735D9F00EAFF26 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050E13735D9E00EAFF26 /* reader.c */; };
 		269605E213735D9F00EAFF26 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050F13735D9E00EAFF26 /* scanner.c */; };
 		269605E313735D9F00EAFF26 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696051013735D9E00EAFF26 /* writer.c */; };
+		26B0F02313745801008476AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E31373569100EAFF26 /* Foundation.framework */; };
+		26B0F02A1374596E008476AC /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050613735D9E00EAFF26 /* api.c */; };
+		26B0F02B1374596E008476AC /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050713735D9E00EAFF26 /* dumper.c */; };
+		26B0F02C1374596E008476AC /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050813735D9E00EAFF26 /* emitter.c */; };
+		26B0F02D1374596E008476AC /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050913735D9E00EAFF26 /* loader.c */; };
+		26B0F02E1374596E008476AC /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050D13735D9E00EAFF26 /* parser.c */; };
+		26B0F02F1374596E008476AC /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050E13735D9E00EAFF26 /* reader.c */; };
+		26B0F0301374596E008476AC /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050F13735D9E00EAFF26 /* scanner.c */; };
+		26B0F0311374596E008476AC /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696051013735D9E00EAFF26 /* writer.c */; };
+		26B0F03213745981008476AC /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26960484137358CE00EAFF26 /* YAMLSerialization.m */; };
+		26B0F033137459B6008476AC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696049713735D9E00EAFF26 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F034137459B6008476AC /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 269604F513735D9E00EAFF26 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F035137459B6008476AC /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696051113735D9E00EAFF26 /* yaml_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F036137459B6008476AC /* YAMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26960483137358CE00EAFF26 /* YAMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F03C13745A59008476AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E31373569100EAFF26 /* Foundation.framework */; };
+		26B0F04313745AD6008476AC /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050613735D9E00EAFF26 /* api.c */; };
+		26B0F04413745AD6008476AC /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050713735D9E00EAFF26 /* dumper.c */; };
+		26B0F04513745AD6008476AC /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050813735D9E00EAFF26 /* emitter.c */; };
+		26B0F04613745AD6008476AC /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050913735D9E00EAFF26 /* loader.c */; };
+		26B0F04713745AD6008476AC /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050D13735D9E00EAFF26 /* parser.c */; };
+		26B0F04813745AD6008476AC /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050E13735D9E00EAFF26 /* reader.c */; };
+		26B0F04913745AD6008476AC /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696050F13735D9E00EAFF26 /* scanner.c */; };
+		26B0F04A13745AD6008476AC /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2696051013735D9E00EAFF26 /* writer.c */; };
+		26B0F04B13745AD6008476AC /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26960484137358CE00EAFF26 /* YAMLSerialization.m */; };
+		26B0F04C13745AED008476AC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696049713735D9E00EAFF26 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F04D13745AED008476AC /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 269604F513735D9E00EAFF26 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F04E13745AED008476AC /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2696051113735D9E00EAFF26 /* yaml_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F04F13745AED008476AC /* YAMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26960483137358CE00EAFF26 /* YAMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0F05513745B8C008476AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269602E31373569100EAFF26 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26146B9F137464B100444BAB /* libYAML-ipadsimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libYAML-ipadsimulator.a"; path = "/Users/ecarrion/YAML.framework/build/Release-iphoneos/libYAML-ipadsimulator.a"; sourceTree = "<absolute>"; };
+		26146BB8137465F300444BAB /* libYAML-ipados.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libYAML-ipados.a"; path = "/Users/ecarrion/YAML.framework/build/Release-iphoneos/libYAML-ipados.a"; sourceTree = "<absolute>"; };
 		269602DD1373569100EAFF26 /* YAML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269602E11373569100EAFF26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		269602E31373569100EAFF26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -237,9 +296,31 @@
 		2696050F13735D9E00EAFF26 /* scanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
 		2696051013735D9E00EAFF26 /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
 		2696051113735D9E00EAFF26 /* yaml_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml_private.h; sourceTree = "<group>"; };
+		26B0F02213745801008476AC /* libYAML-iphonesimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libYAML-iphonesimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0F02613745801008476AC /* YAML-iphonesimulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAML-iphonesimulator-Prefix.pch"; sourceTree = "<group>"; };
+		26B0F03B13745A59008476AC /* libYAML-iphoneos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libYAML-iphoneos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0F03F13745A59008476AC /* YAML-iphoneos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAML-iphoneos-Prefix.pch"; sourceTree = "<group>"; };
+		26B0F05413745B8C008476AC /* libYAML-ios4.3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libYAML-ios4.3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0F05813745B8C008476AC /* YAML-ios4.3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAML-ios4.3-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		26146B9C137464B100444BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26146BA0137464B100444BAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26146BB5137465F300444BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26146BB9137465F300444BAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		269602DA1373569100EAFF26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +328,30 @@
 				269602E21373569100EAFF26 /* UIKit.framework in Frameworks */,
 				269602E41373569100EAFF26 /* Foundation.framework in Frameworks */,
 				269602E61373569100EAFF26 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F01F13745801008476AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0F02313745801008476AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F03813745A59008476AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0F03C13745A59008476AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F05113745B8C008476AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0F05513745B8C008476AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +363,9 @@
 			children = (
 				2696048813735D9E00EAFF26 /* yaml-0.1.3 */,
 				269602E71373569100EAFF26 /* YAML */,
+				26B0F02413745801008476AC /* YAML-iphonesimulator */,
+				26B0F03D13745A59008476AC /* YAML-iphoneos */,
+				26B0F05613745B8C008476AC /* YAML-ios4.3 */,
 				269602E01373569100EAFF26 /* Frameworks */,
 				269602DE1373569100EAFF26 /* Products */,
 			);
@@ -267,6 +375,9 @@
 			isa = PBXGroup;
 			children = (
 				269602DD1373569100EAFF26 /* YAML.app */,
+				26B0F02213745801008476AC /* libYAML-iphonesimulator.a */,
+				26B0F03B13745A59008476AC /* libYAML-iphoneos.a */,
+				26B0F05413745B8C008476AC /* libYAML-ios4.3.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -458,9 +569,145 @@
 			path = .deps;
 			sourceTree = "<group>";
 		};
+		26B0F02413745801008476AC /* YAML-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				26B0F02513745801008476AC /* Supporting Files */,
+			);
+			path = "YAML-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		26B0F02513745801008476AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26B0F02613745801008476AC /* YAML-iphonesimulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26B0F03D13745A59008476AC /* YAML-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				26B0F03E13745A59008476AC /* Supporting Files */,
+			);
+			path = "YAML-iphoneos";
+			sourceTree = "<group>";
+		};
+		26B0F03E13745A59008476AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26B0F03F13745A59008476AC /* YAML-iphoneos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26B0F05613745B8C008476AC /* YAML-ios4.3 */ = {
+			isa = PBXGroup;
+			children = (
+				26B0F05713745B8C008476AC /* Supporting Files */,
+			);
+			path = "YAML-ios4.3";
+			sourceTree = "<group>";
+		};
+		26B0F05713745B8C008476AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26B0F05813745B8C008476AC /* YAML-ios4.3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		26146B9D137464B100444BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26146BB01374657700444BAB /* config.h in Headers */,
+				26146BB11374657700444BAB /* yaml.h in Headers */,
+				26146BB21374657700444BAB /* yaml_private.h in Headers */,
+				26146BB31374657700444BAB /* YAMLSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26146BB6137465F300444BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26146BCB137466D400444BAB /* yaml_private.h in Headers */,
+				26146BCC137466D400444BAB /* YAMLSerialization.h in Headers */,
+				26146BC9137466B800444BAB /* config.h in Headers */,
+				26146BCA137466B800444BAB /* yaml.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F02013745801008476AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0F033137459B6008476AC /* config.h in Headers */,
+				26B0F034137459B6008476AC /* yaml.h in Headers */,
+				26B0F035137459B6008476AC /* yaml_private.h in Headers */,
+				26B0F036137459B6008476AC /* YAMLSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F03913745A59008476AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0F04C13745AED008476AC /* config.h in Headers */,
+				26B0F04D13745AED008476AC /* yaml.h in Headers */,
+				26B0F04E13745AED008476AC /* yaml_private.h in Headers */,
+				26B0F04F13745AED008476AC /* YAMLSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F05213745B8C008476AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		26146B9E137464B100444BAB /* YAML-ipadsimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26146BA4137464B100444BAB /* Build configuration list for PBXNativeTarget "YAML-ipadsimulator" */;
+			buildPhases = (
+				26146B9B137464B100444BAB /* Sources */,
+				26146B9C137464B100444BAB /* Frameworks */,
+				26146B9D137464B100444BAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YAML-ipadsimulator";
+			productName = "YAML-ipadsimulator";
+			productReference = 26146B9F137464B100444BAB /* libYAML-ipadsimulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26146BB7137465F300444BAB /* YAML-ipados */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26146BBD137465F300444BAB /* Build configuration list for PBXNativeTarget "YAML-ipados" */;
+			buildPhases = (
+				26146BB4137465F300444BAB /* Sources */,
+				26146BB5137465F300444BAB /* Frameworks */,
+				26146BB6137465F300444BAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YAML-ipados";
+			productName = "YAML-ipados";
+			productReference = 26146BB8137465F300444BAB /* libYAML-ipados.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		269602DC1373569100EAFF26 /* YAML */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 269602FE1373569100EAFF26 /* Build configuration list for PBXNativeTarget "YAML" */;
@@ -477,6 +724,58 @@
 			productName = YAML;
 			productReference = 269602DD1373569100EAFF26 /* YAML.app */;
 			productType = "com.apple.product-type.application";
+		};
+		26B0F02113745801008476AC /* YAML-iphonesimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B0F02713745801008476AC /* Build configuration list for PBXNativeTarget "YAML-iphonesimulator" */;
+			buildPhases = (
+				26B0F01E13745801008476AC /* Sources */,
+				26B0F01F13745801008476AC /* Frameworks */,
+				26B0F02013745801008476AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YAML-iphonesimulator";
+			productName = "YAML-iphonesimulator";
+			productReference = 26B0F02213745801008476AC /* libYAML-iphonesimulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26B0F03A13745A59008476AC /* YAML-iphoneos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B0F04013745A59008476AC /* Build configuration list for PBXNativeTarget "YAML-iphoneos" */;
+			buildPhases = (
+				26B0F03713745A59008476AC /* Sources */,
+				26B0F03813745A59008476AC /* Frameworks */,
+				26B0F03913745A59008476AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YAML-iphoneos";
+			productName = "YAML-iphoneos";
+			productReference = 26B0F03B13745A59008476AC /* libYAML-iphoneos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26B0F05313745B8C008476AC /* YAML-ios4.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B0F05913745B8C008476AC /* Build configuration list for PBXNativeTarget "YAML-ios4.3" */;
+			buildPhases = (
+				26B0F05013745B8C008476AC /* Sources */,
+				26B0F05113745B8C008476AC /* Frameworks */,
+				26B0F05213745B8C008476AC /* Headers */,
+				26B0F05C13745BA5008476AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YAML-ios4.3";
+			productName = "YAML-ios4.3";
+			productReference = 26B0F05413745B8C008476AC /* libYAML-ios4.3.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -499,6 +798,11 @@
 			projectRoot = "";
 			targets = (
 				269602DC1373569100EAFF26 /* YAML */,
+				26B0F02113745801008476AC /* YAML-iphonesimulator */,
+				26B0F03A13745A59008476AC /* YAML-iphoneos */,
+				26B0F05313745B8C008476AC /* YAML-ios4.3 */,
+				26146B9E137464B100444BAB /* YAML-ipadsimulator */,
+				26146BB7137465F300444BAB /* YAML-ipados */,
 			);
 		};
 /* End PBXProject section */
@@ -607,7 +911,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26B0F05C13745BA5008476AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf ${BUILT_PRODUCTS_DIR}/libYAML-ios4.3.a\n\nlipo -create \"${BUILT_PRODUCTS_DIR}/../${BUILD_STYLE}-iphonesimulator/libYAML-iphonesimulator.a\" \\\n\"${BUILT_PRODUCTS_DIR}/libYAML-iphoneos.a\" -output \\\n\"${BUILT_PRODUCTS_DIR}/libYAML-ios4.3.a\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		26146B9B137464B100444BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26146BA71374654000444BAB /* api.c in Sources */,
+				26146BA81374654000444BAB /* dumper.c in Sources */,
+				26146BA91374654000444BAB /* emitter.c in Sources */,
+				26146BAA1374654000444BAB /* loader.c in Sources */,
+				26146BAB1374654000444BAB /* parser.c in Sources */,
+				26146BAC1374654000444BAB /* reader.c in Sources */,
+				26146BAD1374654000444BAB /* scanner.c in Sources */,
+				26146BAE1374654000444BAB /* writer.c in Sources */,
+				26146BAF1374654000444BAB /* YAMLSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26146BB4137465F300444BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26146BC01374662100444BAB /* api.c in Sources */,
+				26146BC11374662100444BAB /* dumper.c in Sources */,
+				26146BC21374662100444BAB /* emitter.c in Sources */,
+				26146BC31374662100444BAB /* loader.c in Sources */,
+				26146BC41374662100444BAB /* parser.c in Sources */,
+				26146BC51374662100444BAB /* reader.c in Sources */,
+				26146BC61374662100444BAB /* scanner.c in Sources */,
+				26146BC71374662100444BAB /* writer.c in Sources */,
+				26146BC81374662100444BAB /* YAMLSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		269602D91373569100EAFF26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,6 +976,45 @@
 				269605E113735D9F00EAFF26 /* reader.c in Sources */,
 				269605E213735D9F00EAFF26 /* scanner.c in Sources */,
 				269605E313735D9F00EAFF26 /* writer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F01E13745801008476AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0F03213745981008476AC /* YAMLSerialization.m in Sources */,
+				26B0F02A1374596E008476AC /* api.c in Sources */,
+				26B0F02B1374596E008476AC /* dumper.c in Sources */,
+				26B0F02C1374596E008476AC /* emitter.c in Sources */,
+				26B0F02D1374596E008476AC /* loader.c in Sources */,
+				26B0F02E1374596E008476AC /* parser.c in Sources */,
+				26B0F02F1374596E008476AC /* reader.c in Sources */,
+				26B0F0301374596E008476AC /* scanner.c in Sources */,
+				26B0F0311374596E008476AC /* writer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F03713745A59008476AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0F04313745AD6008476AC /* api.c in Sources */,
+				26B0F04413745AD6008476AC /* dumper.c in Sources */,
+				26B0F04513745AD6008476AC /* emitter.c in Sources */,
+				26B0F04613745AD6008476AC /* loader.c in Sources */,
+				26B0F04713745AD6008476AC /* parser.c in Sources */,
+				26B0F04813745AD6008476AC /* reader.c in Sources */,
+				26B0F04913745AD6008476AC /* scanner.c in Sources */,
+				26B0F04A13745AD6008476AC /* writer.c in Sources */,
+				26B0F04B13745AD6008476AC /* YAMLSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0F05013745B8C008476AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +1048,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		26146BA5137464B100444BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_ipadsimulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-ipadsimulator/YAML-ipadsimulator-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26146BA6137464B100444BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_ipadsimulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-ipadsimulator/YAML-ipadsimulator-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26146BBE137465F300444BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_ipados.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-ipados/YAML-ipados-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26146BBF137465F300444BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_ipados.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-ipados/YAML-ipados-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		269602FC1373569100EAFF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -719,9 +1162,105 @@
 			};
 			name = Release;
 		};
+		26B0F02813745801008476AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_iphonesimulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-iphonesimulator/YAML-iphonesimulator-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26B0F02913745801008476AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_iphonesimulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-iphonesimulator/YAML-iphonesimulator-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26B0F04113745A59008476AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_iphoneos.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-iphoneos/YAML-iphoneos-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26B0F04213745A59008476AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_iphoneos.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-iphoneos/YAML-iphoneos-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26B0F05A13745B8C008476AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_ios4_3.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-ios4.3/YAML-ios4.3-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26B0F05B13745B8C008476AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/YAML_ios4_3.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAML-ios4.3/YAML-ios4.3-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26146BA4137464B100444BAB /* Build configuration list for PBXNativeTarget "YAML-ipadsimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26146BA5137464B100444BAB /* Debug */,
+				26146BA6137464B100444BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26146BBD137465F300444BAB /* Build configuration list for PBXNativeTarget "YAML-ipados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26146BBE137465F300444BAB /* Debug */,
+				26146BBF137465F300444BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		269602D71373569100EAFF26 /* Build configuration list for PBXProject "YAML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -736,6 +1275,33 @@
 			buildConfigurations = (
 				269602FF1373569100EAFF26 /* Debug */,
 				269603001373569100EAFF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B0F02713745801008476AC /* Build configuration list for PBXNativeTarget "YAML-iphonesimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0F02813745801008476AC /* Debug */,
+				26B0F02913745801008476AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B0F04013745A59008476AC /* Build configuration list for PBXNativeTarget "YAML-iphoneos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0F04113745A59008476AC /* Debug */,
+				26B0F04213745A59008476AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B0F05913745B8C008476AC /* Build configuration list for PBXNativeTarget "YAML-ios4.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0F05A13745B8C008476AC /* Debug */,
+				26B0F05B13745B8C008476AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

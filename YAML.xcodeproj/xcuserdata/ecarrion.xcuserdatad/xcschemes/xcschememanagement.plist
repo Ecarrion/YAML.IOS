@@ -4,6 +4,31 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>YAML-ios4.3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>YAML-ipados.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>YAML-ipadsimulator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>YAML-iphoneos.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>YAML-iphonesimulator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>YAML.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,7 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>26146B9E137464B100444BAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26146BB7137465F300444BAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>269602DC1373569100EAFF26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26B0F02113745801008476AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26B0F03A13745A59008476AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26B0F05313745B8C008476AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -41,10 +41,9 @@
     
     
     
-    
     // Dump Objective-C object description
     //NSLog(@"%@", [yaml description]);
-    
+    NSLog(@"Error: %@\n", error);
     
     
     
