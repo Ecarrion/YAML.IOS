@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'YAML-ios4.3' target in the 'YAML-ios4.3' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
